@@ -43,6 +43,7 @@
         right: 0
         padding: 5px;
         margin: auto;
+        vertical-align: middle;
       }
        .nav li .dua {
         display: inline-block;
@@ -54,7 +55,7 @@
         height: 20px;
         text-align: center;
         text-decoration: none;
-        
+        vertical-align: middle;
       }
        .nav li .dua:hover {
          border-radius: 35px;
@@ -63,7 +64,7 @@
         background-color: #ffff;
         font-family: Arial;
         color: #6aee7f;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         padding: 10px;
         margin: auto;
         margin-left: -0px;
@@ -112,7 +113,7 @@
         background-color: #217a25;
         z-index: 6;
         bottom: 0;
-        margin-top: 615px;
+        margin-top: 131px;
         padding: 5px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 100px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       }
@@ -123,6 +124,7 @@
         border-radius: 35px;
         background-color: #fff ;
         width: 100px;
+        z-index: 3;
       }
       .cari input {
         left: 10px;
@@ -153,7 +155,36 @@
       
       .nav  ul .cari {
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 10px;}
+      
+      .content{
+        text-align: center;
+        background-color: ;
+        margin-top: 30px;
+      }
+      .content .judul {
+        font-size: 22px;
+        padding: 10px;
+        margin-top: 90px;
+        font-family: Times New Roman;
+        color: #217a25;
+        text-transform: uppercase;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      }
+      
+      .gambar {
+        position: relative; /* atau absolute, fixed, atau sticky */
+         top: 40px; /* Jarak dari atas */
+        left: 2px;
+        border: solid #217a25;
+        border-radius: 16%;
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      }
     
       
     </style>
@@ -164,26 +195,26 @@
       <ul>
         <li><a class="dua" href="#">nenu</a>
               <marquee behavior="slide" direction="left" scrollamount="4" width="300" >
-                <a class="satu" href="haji.html">Doa akhir tahun</a>
+                <a class="satu" href="haji.html">Doa awal dan akhir tahun</a>
                 <br />
-                 <a class="satu" href="">dalailul khoirot</a>
+                 <a class="satu" href="">Dalailul khoirot</a>
                  <br>
-                 <a class="satu" href="">sa</a>
+                 <a class="satu" href="">Bacaan sholat</a>
                   <br>
-                 <a class="satu" href="https://www.instagram.com/pprmalaziziyah1?igsh=MXZuZG9hdHlsaXdpbw==">media ig </a>
+                 <a class="satu" href="https://www.instagram.com/pprmalaiyah1?igsh=MXZu9hdHlsaXdpbw==">Bacaan tahlil </a>
                  <br>
-                 <a class="satu" href="https://m.youtube.com/@Alaziziyah1?fbclid=PAZXh0bgNhZW0CMTEAAaaF7DjjKx1M3SAZ7K5EnotMdNUv8kIqpwV0zLy-QMw-s5CGWJ2nfW16i4Q_aem_OZZhpDnoUk37_7tU7HS5kw">youtube</a>
+                 <a class="satu" href="https://m.youtube.com/@Alaziziyah1?fbclid=PAZaaF7DjjKx1M3SAZ7K5EnotMdNUv8kIqpwV0zLy-QMw-s5CGWJ2nfW16i4Q_aem_OZZhpDnoUk37_7tU7HS5kw">doa harian</a>
                  <br>
-                 <a class="satu" href="https://sri.net/">net</a>
+                 <a class="satu" href="https://sri.net/">Doa bulanan</a>
                   <br>
-                 <a class="satu" href="">burdah</a>
+                 <a class="satu" href="">Kosidah burdah</a>
                  <br>
-                 <a class="satu" href="">ahzab</a>
+                 <a class="satu" href="">Kumpulan hizib</a>
                  <br>
-                 <a class="satu" href="">adzkar</a>
+                 <a class="satu" href="">Adzkar</a>
 
                  <br>
-                 <a class="satu" href="">sholawat nabi</a>
+                 <a class="satu" href="">Sholawat nabi</a>
                   <br>
                  <a class="satu" href=""></a>
               </marquee>
@@ -196,6 +227,10 @@
         </ul>
       
     </nav>
+    <div class="content">
+      <h1 class="judul">AL AD'IYAH WAL AKDZKAR</h1>
+      <img src="doa.jpg" alt="" class="gambar" />
+    </div>
     <div class="foter">
         <center>
           <marquee behavior="" direction="">
